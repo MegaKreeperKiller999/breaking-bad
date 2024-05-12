@@ -1,0 +1,143 @@
+html, *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.disclaimer_h1{
+    color: red;
+    text-align: center;
+}
+.disclaimer_text{
+    font-size: xx-large;
+    text-align: center;
+    border: 3px solid black;
+    color: aliceblue;
+}
+.start{
+    margin-left: 45%;
+    background-color: brown;
+    color: aliceblue;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    font-size: xx-large;
+}
+.gl{
+    text-align: center;
+    color: aliceblue;
+}
+
+.start:active{
+    background-color: brown;
+}
+.screen_1{
+    background-color: black;
+}
+.burger{
+    text-align: center;
+    color: aliceblue;
+    font-size: xx-large;
+}
+.cheese{
+    text-align: center;
+    color: aliceblue;
+    font-size: xx-large;
+}
+.caution{
+    color: grey;
+    font-size: xx-small;
+}
+.screen_1{
+    display: none;
+
+}
+.next{
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    font-size: xx-large;
+}
+.mm{
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    font-size: xx-large;  
+}
+.story{
+    background-color: black;
+}
+
+.container{
+    display: none;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text_container{
+    position: absolute;
+    bottom: 0;
+    /* background-image: url(https://learn.microsoft.com/ru-ru/office/vba/images/userform_za01201773.gif); */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    width: 100%;
+    left: 0;
+    height: 200px;
+    background-color: limegreen;
+    border: solid 1px black;
+    z-index: 2;
+}
+.image{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    left: 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.name,.text{
+    z-index: 1;
+    padding: 5px 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+}
+.next_button{
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 5%;
+    right: 100;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+.text_container:hover img{
+    opacity: 1;
+    cursor: pointer;
+    transform: translateX(50px);
+}
+
+.choice_one{
+    position: relative;
+    z-index: 3;
+}
+.choice_two{
+    position:relative;
+    z-index: 3;
+}
+
+.choice_one:hover{
+    cursor: pointer;
+    color: red;
+}
+.choice_two:hover{
+    cursor: pointer;
+    color: red;
+}
